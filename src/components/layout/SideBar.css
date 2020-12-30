@@ -1,0 +1,44 @@
+.sidenav {
+    height: 100%; 
+    width: 25%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+ 
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .btnCloseSession {
+    background-color: #ac0505;
+    color: #f1f1f1;
+    width: 100%
+  }
+
+  .btnCloseSession:hover{
+    background-color: #8b0909;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .clickChangeTheme {
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: 50px;
+  }
+
+  ._labelUser {
+    width: 100%;
+    font-size: 2.4rem;
+    text-align: center;
+  }
