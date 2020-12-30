@@ -1,5 +1,6 @@
 {
-  "name": "pruebatecnicaurbetrack",
+  "name": "imagesviewer",
+  "author": "Sambuceti Belen",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
